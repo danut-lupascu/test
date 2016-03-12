@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to convert the string to uppercase letters.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = prompt("Enter your name : ", "your name here");
+    var res = str.toUpperCase();
+
+var i=res.length;
+i=i-1;
+
+for (var x = i; x >=0; x--)
+   {
+  document.write(res.charAt(x));
+
+   }
+}
+
+</script>
+
+
+
+</body>
+</html>
